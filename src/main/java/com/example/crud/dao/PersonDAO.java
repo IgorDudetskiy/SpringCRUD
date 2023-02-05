@@ -71,8 +71,6 @@ public class PersonDAO {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
-
     }
 
     public void update(int id, Person updatedPerson) {
